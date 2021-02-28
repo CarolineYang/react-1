@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="" />
+    <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jsx语法规则/jsx语法规则.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_jsx的小练习/jsx小练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_react中定义组件/2、类式组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复习/1、类的基础知识.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oZwnKnTsbFTk7ugw3rtUiA21Au" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,21 +47,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1、使用jsx创建虚拟DOM.html">
-    <configuration name="1、使用jsx创建虚拟DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/1、使用jsx创建虚拟DOM.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.1、函数式组件.html">
+    <configuration name="1、函数式组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/05_react中定义组件/1、函数式组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="2、使用js创建虚拟DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/2、使用js创建虚拟DOM.html" useBuiltInWebServerPort="true">
+    <configuration name="1、类的基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello_react.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/01_hello_react/hello_react.html" useBuiltInWebServerPort="true">
+    <configuration name="3、虚拟DOM与真实DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jsx语法规则.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/03_jsx语法规则/jsx语法规则.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jsx小练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/04_jsx的小练习/jsx小练习.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.1、使用jsx创建虚拟DOM.html" />
-        <item itemvalue="JavaScript Debug.2、使用js创建虚拟DOM.html" />
-        <item itemvalue="JavaScript Debug.hello_react.html" />
+        <item itemvalue="JavaScript Debug.1、函数式组件.html" />
+        <item itemvalue="JavaScript Debug.1、类的基础知识.html" />
+        <item itemvalue="JavaScript Debug.jsx小练习.html" />
+        <item itemvalue="JavaScript Debug.jsx语法规则.html" />
+        <item itemvalue="JavaScript Debug.3、虚拟DOM与真实DOM.html" />
       </list>
     </recent_temporary>
   </component>
@@ -67,10 +86,36 @@
       <workItem from="1613507586565" duration="1647000" />
       <workItem from="1613578517708" duration="2149000" />
       <workItem from="1613917030962" duration="621000" />
+      <workItem from="1613919664757" duration="73000" />
+      <workItem from="1614502809563" duration="10633000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1613919713294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613919713294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1613919712547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613919712547" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613919715649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613919715649" />
   </component>
 </project>

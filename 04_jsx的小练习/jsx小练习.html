@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsx小练习</title>
+    <style>
+        .title{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<!--准备好一个容器-->
+<div id="test"></div>
+
+<script src="../js/react.development.js"></script>
+<script src="../js/react-dom.development.js"></script>
+<script src="../js/babel.min.js"></script>
+<script type="text/babel">
+    //一定注意区分js语句和js表达式
+    //1、表达式：一个表达式会产生一个值，可以放在任何一个需要值的地方
+    //下面这些都是表达式(有值返回值)（1）. a （2）. a+b （3）. demo(1)（4）. arr.map()（5）. function test(){}
+    // 2、语句
+    //下面这些都是语句(代码)（1）.if(){}（2）.for(){}（3）.switch(){case:xxxx}
+    const myList = [
+        {
+            name:'Angular'
+        },
+        {
+            name:'React'
+        },
+        {
+            name:'Vue'
+        }
+    ];
+    const myList2 = ['Angular', 'React', 'Vue'];
+    const myList3 = [<li>Angular</li>, <li>React</li>, <li>Vue</li>];
+    const myData = "前端js框架列表";
+    //1、创建虚拟DOM
+    const VDOM = (
+        <div>
+            <h1>{myData}</h1>
+            <ul>
+                {
+                    myList.map((item,index)=>{
+                        return <li key="{item.name}">{item.name}</li>
+                    })
+                }
+            </ul>
+            <ul>
+                {myList2}
+            </ul>
+            <ul>
+                {myList3}
+            </ul>
+            <ul>
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue</li>
+            </ul>
+        </div>
+    )
+    // 2、渲染虚拟DOM到页面
+    ReactDOM.render(VDOM,document.getElementById('test'));
+
+</script>
+</body>
+</html>
