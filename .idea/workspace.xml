@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_jsx语法规则/jsx语法规则.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_jsx的小练习/jsx小练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_react中定义组件/2、类式组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/复习/1、类的基础知识.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <workItem from="1613578517708" duration="2149000" />
       <workItem from="1613917030962" duration="621000" />
       <workItem from="1613919664757" duration="73000" />
-      <workItem from="1614502809563" duration="10633000" />
+      <workItem from="1614502809563" duration="11271000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1613919713294</created>
@@ -96,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613919713294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试">
+      <created>1614528100635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614528100635</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +111,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1613919712547">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1614528099911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613919712547" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613919715649">
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1614528099911" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614528102409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613919715649" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614528102409" />
   </component>
 </project>
