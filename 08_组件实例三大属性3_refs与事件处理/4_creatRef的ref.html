@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_creatRef的使用ref</title>
+</head>
+<body>
+<div id="test"></div>
+<script src="../js/react.development.js"></script>
+<script src="../js/react-dom.development.js"></script>
+<script src="../js/babel.min.js"></script>
+
+<script type="text/babel">
+    class Demo extends React.Component{
+        //ReactDOM.createRef调用后可以返回一个容器，该容器可以存储被ref所标识的节点,该容器是专人转用的，只能存一个
+        myRef = React.createRef();
+        myRef2 = React.createRef();
+        state = {}
+        //展示左侧输入框的数据
+        showData = ()=>{
+            // const {input1} = this.refs;
+            console.log('ss',this.myRef.current.value)
+        }
+        showData2 = ()=>{
+            // const {input2} = this.refs;
+            console.log('ss',this.myRef2.current.value)
+        }
+        render(){
+            return(
+                <div>
+                    <input ref={this.myRef}  type="text" placeholder="hh"/>
+                    <button ref="btn" onClick={this.showData}>点我提示左侧数据</button>
+                    <input onBlur={this.showData2} ref={this.myRef2} type="text" placeholder="aa"/>
+                </div>
+            )
+        }
+
+    }
+    ReactDOM.render(<Demo/>,document.getElementById('test'))
+
+</script>
+</body>
+</html>

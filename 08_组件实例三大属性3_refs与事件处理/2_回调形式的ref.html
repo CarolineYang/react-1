@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_回调形式的ref</title>
+</head>
+<body>
+<div id="test"></div>
+<script src="../js/react.development.js"></script>
+<script src="../js/react-dom.development.js"></script>
+<script src="../js/babel.min.js"></script>
+
+<script type="text/babel">
+    class Demo extends React.Component{
+        //展示左侧输入框的数据
+        showData = ()=>{
+            console.log('s',this.input1.value)
+        }
+        showData2 = ()=>{
+            console.log('a',this.input2.value)
+        }
+        render(){
+            return(
+                <div>
+                    <input ref={c => this.input1=c }  type="text" placeholder="hh"/>
+                    <button  onClick={this.showData}>点我提示左侧数据</button>
+                    <input onBlur={this.showData2} ref={c => this.input2=c } type="text" placeholder="aa"/>
+                </div>
+            )
+        }
+
+    }
+    ReactDOM.render(<Demo/>,document.getElementById('test'))
+
+</script>
+</body>
+</html>

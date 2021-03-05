@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_非受控组件</title>
+</head>
+<body>
+<div id="test"></div>
+<script src="../js/react.development.js"></script>
+<script src="../js/react-dom.development.js"></script>
+<script src="../js/babel.min.js"></script>
+<script type="text/babel">
+    class Login extends React.Component{
+        submit = ()=>{
+            event.preventDefault();
+            const {username,password} = this;
+            console.log(username.value,password.value);
+        }
+        render(){
+            return (
+                <form  onSubmit={this.submit}>
+                    用户名：<input ref={c => this.username=c} name="username" type="text"/>
+                    密码：<input ref={c=>this.password = c} name="password" type="password"/>
+                    <button>Login</button>
+                </form>
+            )
+        }
+    }
+    ReactDOM.render(<Login/>,document.getElementById('test'));
+</script>
+</body>
+</html>

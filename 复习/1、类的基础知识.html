@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>类的基础知识</title>
 </head>
 <body>
 <script type="text/javascript">
@@ -51,6 +51,20 @@
     console.log(s1,Student.prototype);
     s1.speak();
     s1.study();
+    class Car{
+        constructor(name,price) {
+            this.name = name;
+            this.price = price;
+        }
+        //类中可以直接写赋值语句,如下代码的含义是：给Car的实例对象添加一个属性，名为a值为1
+        //是绑定在实例上的属性
+        a = 1
+        //是添加在类Car上的属性
+        static b = 2
+    }
+    const c1 = new Car('奔驰c63',199);
+    const c2 = new Car('奔驰c6322',12299);
+    console.log(c1,c2,Car,Car.b)
 </script>
 </body>
 </html>

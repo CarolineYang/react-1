@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/06_组件实例三大属性1_state/1_state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_组件实例三大属性1_state/2_state的简写方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_组件实例三大属性2_props/1_props基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_组件实例三大属性2_props/2_对props进行限制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_组件实例三大属性2_props/3_props的简写方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_组件实例三大属性2_props/4_函数式组件使用props.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/1_字符串形式的ref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/2_回调形式的ref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/3_回调ref中回调执行次数的问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/4_creatRef的ref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_react中的事件处理/事件处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_react中手机表单数据/1_非受控组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_react中手机表单数据/2_受控组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/prop-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复习/4_展开运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复习/curry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_react中定义组件/1、函数式组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_react中定义组件/2、类式组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_react中定义组件/2、类式组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复习/1、类的基础知识.html" beforeDir="false" afterPath="$PROJECT_DIR$/复习/1、类的基础知识.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +61,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_react中手机表单数据" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,29 +78,45 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1、函数式组件.html">
-    <configuration name="1、函数式组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/05_react中定义组件/1、函数式组件.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10_react中手机表单数据" />
+      <recent name="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理" />
+      <recent name="$PROJECT_DIR$/07_组件实例三大属性2_props" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.4_creatRef的ref.html">
+    <configuration name="1_非受控组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/10_react中手机表单数据/1_非受控组件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="1、类的基础知识.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="1、类的基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="3、虚拟DOM与真实DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" useBuiltInWebServerPort="true">
+    <configuration name="2_受控组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/10_react中手机表单数据/2_受控组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="jsx语法规则.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/03_jsx语法规则/jsx语法规则.html" useBuiltInWebServerPort="true">
+    <configuration name="2_回调形式的ref.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/08_组件实例三大属性3_refs与事件处理/2_回调形式的ref.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="jsx小练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/04_jsx的小练习/jsx小练习.html" useBuiltInWebServerPort="true">
+    <configuration name="3_回调ref中回调执行次数的问题.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/08_组件实例三大属性3_refs与事件处理/3_回调ref中回调执行次数的问题.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="4_creatRef的ref.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/08_组件实例三大属性3_refs与事件处理/4_creatRef的ref.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.1、函数式组件.html" />
-        <item itemvalue="JavaScript Debug.1、类的基础知识.html" />
-        <item itemvalue="JavaScript Debug.jsx小练习.html" />
-        <item itemvalue="JavaScript Debug.jsx语法规则.html" />
-        <item itemvalue="JavaScript Debug.3、虚拟DOM与真实DOM.html" />
+        <item itemvalue="JavaScript Debug.4_creatRef的ref.html" />
+        <item itemvalue="JavaScript Debug.2_受控组件.html" />
+        <item itemvalue="JavaScript Debug.1_非受控组件.html" />
+        <item itemvalue="JavaScript Debug.3_回调ref中回调执行次数的问题.html" />
+        <item itemvalue="JavaScript Debug.2_回调形式的ref.html" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +135,9 @@
       <workItem from="1613917030962" duration="621000" />
       <workItem from="1613919664757" duration="73000" />
       <workItem from="1614502809563" duration="11271000" />
+      <workItem from="1614761416424" duration="2676000" />
+      <workItem from="1614826070225" duration="15911000" />
+      <workItem from="1614911530550" duration="4256000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1613919713294</created>
@@ -102,7 +157,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -111,13 +178,89 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="833" y="401" key="#Scopes" timestamp="1614839997977">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="833" y="401" key="#Scopes/0.23.1792.1017@0.23.1792.1017" timestamp="1614839997977" />
     <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1614528099911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1614528099911" />
+    <state width="848" height="326" key="GridCell.Tab.0.bottom" timestamp="1614862559507">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559507" />
+    <state width="848" height="326" key="GridCell.Tab.0.center" timestamp="1614862559507">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559507" />
+    <state width="848" height="326" key="GridCell.Tab.0.left" timestamp="1614862559506">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559506" />
+    <state width="848" height="326" key="GridCell.Tab.0.right" timestamp="1614862559507">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559507" />
+    <state width="848" height="326" key="GridCell.Tab.1.bottom" timestamp="1614862559509">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559509" />
+    <state width="848" height="326" key="GridCell.Tab.1.center" timestamp="1614862559509">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559509" />
+    <state width="848" height="326" key="GridCell.Tab.1.left" timestamp="1614862559508">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559508" />
+    <state width="848" height="326" key="GridCell.Tab.1.right" timestamp="1614862559509">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559509" />
+    <state width="848" height="326" key="GridCell.Tab.2.bottom" timestamp="1614862559510">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.2.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559510" />
+    <state width="848" height="326" key="GridCell.Tab.2.center" timestamp="1614862559510">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.2.center/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559510" />
+    <state width="848" height="326" key="GridCell.Tab.2.left" timestamp="1614862559510">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.2.left/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559510" />
+    <state width="848" height="326" key="GridCell.Tab.2.right" timestamp="1614862559510">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.2.right/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559510" />
+    <state width="848" height="326" key="GridCell.Tab.3.bottom" timestamp="1614862559511">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.3.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559511" />
+    <state width="848" height="326" key="GridCell.Tab.3.center" timestamp="1614862559511">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.3.center/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559511" />
+    <state width="848" height="326" key="GridCell.Tab.3.left" timestamp="1614862559510">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.3.left/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559510" />
+    <state width="848" height="326" key="GridCell.Tab.3.right" timestamp="1614862559511">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="848" height="326" key="GridCell.Tab.3.right/0.23.1792.1017@0.23.1792.1017" timestamp="1614862559511" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614528102409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614528102409" />
+    <state x="989" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614850181481">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="989" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1614850181481" />
+    <state x="698" y="248" key="run.anything.popup" timestamp="1614840023162">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="698" y="248" key="run.anything.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1614840023162" />
   </component>
 </project>
