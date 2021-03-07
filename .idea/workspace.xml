@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/1_引出生命周期.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/1_引出生命周期.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1_引出生命周期.html">
+  <component name="RunManager" selected="JavaScript Debug.2_react生命周期（旧）.html">
     <configuration name="1_引出生命周期.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/1_引出生命周期.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -50,6 +50,9 @@
       <method v="2" />
     </configuration>
     <configuration name="1、类的基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="2_react生命周期（旧）.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/2_react生命周期（旧）.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="3、虚拟DOM与真实DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" useBuiltInWebServerPort="true">
@@ -63,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_react生命周期（旧）.html" />
         <item itemvalue="JavaScript Debug.1_引出生命周期.html" />
         <item itemvalue="JavaScript Debug.1、函数式组件.html" />
         <item itemvalue="JavaScript Debug.jsx语法规则.html" />
@@ -85,7 +89,7 @@
       <workItem from="1613917030962" duration="621000" />
       <workItem from="1613919664757" duration="73000" />
       <workItem from="1614502809563" duration="11534000" />
-      <workItem from="1615101908384" duration="5572000" />
+      <workItem from="1615101908384" duration="7463000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1613919713294</created>
@@ -122,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615103972290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1615109094255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615109094255</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试">
+      <created>1615109207671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615109207671</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,10 +153,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1615109093638">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1615109207110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615109093638" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615109207110" />
     <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1615104305989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -187,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615109095570">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615109209008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615109095570" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615109209008" />
     <state x="469" y="203" key="git4idea.merge.GitPullDialog" timestamp="1615102033016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
