@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2_react生命周期（旧）</title>
+    <title>3_react生命周期（新）</title>
 </head>
 <body>
 <div id="test"></div>
-<script src="../js/react.development.js"></script>
-<script src="../js/react-dom.development.js"></script>
+
+<script src="../js/react.production.min.js"></script>
+<script src="../js/react-dom.production.min.js"></script>
 <script src="../js/babel.min.js"></script>
 <script type="text/babel">
     /*
@@ -32,6 +33,7 @@
             super(props);
             console.log('constructor');
         }
+
         state = {
             num:0
         }
@@ -40,12 +42,22 @@
             this.setState({
                 num:num+1
             })
+
         }
         death = ()=>{
             ReactDOM.unmountComponentAtNode(document.getElementById('test'))
         }
         force = ()=>{
             this.forceUpdate();
+        }
+        //若state的值在任何时候都取决于props，那么可以使用getDerivedStateFromProps
+        static getDerivedStateFromProps(props,state,){
+            console.log('getDerivedStateFromProps',props,state);
+            return null
+        }
+        getSnapshotBeforeUpdate(){
+            console.log('getSnapshotBeforeUpdate');
+            return 'atiguigu'
         }
         shouldComponentUpdate(){
             console.log('shouldComponentUpdate');
@@ -54,8 +66,8 @@
         componentWillUpdate(){
             console.log('componentWillUpdate');
         }
-        componentDidUpdate(){
-            console.log('componentDidUpdate');
+        componentDidUpdate(preProps,preState,snapshotValue){
+            console.log('componentDidUpdate',preProps,preState,snapshotValue);
         }
         //组件将要挂载
         componentWillMount(){
@@ -73,7 +85,7 @@
             console.log('render',2)
             return (
                 <div>
-                    <div>当前求和为：{this.state.num}</div>
+                    <div>当前求和为：{this.state.num}+{this.props.num}</div>
                     <button onClick={this.count}>点我加1</button>
                     <button onClick={this.death}>chexiao</button>
                     <button onClick={this.force}>force</button>
@@ -106,6 +118,9 @@
         componentDidMount(){
             console.log('A---componentDidMount');
         }
+        getDerivedStateFromProps(){
+            console.log('getDerivedStateFromProps');
+        }
         render(){
             console.log('A---render');
             return (
@@ -118,10 +133,16 @@
         }
     }
     class B extends React.Component{
-        componentDidMount(){
-            console.log('B--componentDidMount')
+        getDerivedStateFromProps(){
+            console.log('getDerivedStateFromProps');
         }
-        componentWillReceiveProps(props){
+        getSnapshotBeforeUpdate(){
+            console.log('getSnapshotBeforeUpdate');
+        }
+        componentDidMount(){
+            console.log('B--componentDidMount');
+        }
+        UNSAFE_componentWillReceiveProps(props){
             console.log('componentWillReceiveProps',props)
         }
         shouldComponentUpdate(){
@@ -134,6 +155,7 @@
         componentDidUpdate(){
             console.log('B---componentDidUpdate')
         }
+
         render(){
             console.log('B--render');
             return (
@@ -141,7 +163,7 @@
             )
         }
     }
-    ReactDOM.render(<A/>,document.getElementById('test'))
+    ReactDOM.render(<Demo num={11}/>,document.getElementById('test'))
 </script>
 </body>
 </html>

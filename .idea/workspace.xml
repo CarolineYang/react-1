@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" afterDir="false" />
+    <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="话new时尚的f">
+      <change afterPath="$PROJECT_DIR$/11_高阶函数_函数柯里化/1_高阶函数_函数柯里化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_高阶函数_函数柯里化/2_不用函数柯里化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期（新）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复习/6_演示函数的柯里化.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +53,28 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_组件的生命周期" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_react生命周期（旧）.html">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_组件的生命周期" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.4_getSnapshotBeforeUpdate.html">
     <configuration name="1_引出生命周期.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/1_引出生命周期.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="1、函数式组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/05_react中定义组件/1、函数式组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="1、类的基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
@@ -55,10 +83,13 @@
     <configuration name="2_react生命周期（旧）.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/2_react生命周期（旧）.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="3、虚拟DOM与真实DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/02_虚拟DOM的两种创建方式/3、虚拟DOM与真实DOM.html" useBuiltInWebServerPort="true">
+    <configuration name="3_react生命周期（新）.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/3_react生命周期（新）.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="jsx语法规则.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/03_jsx语法规则/jsx语法规则.html" useBuiltInWebServerPort="true">
+    <configuration name="4_getSnapshotBeforeUpdate.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="jsx小练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/04_jsx的小练习/jsx小练习.html" useBuiltInWebServerPort="true">
@@ -66,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.4_getSnapshotBeforeUpdate.html" />
+        <item itemvalue="JavaScript Debug.demo.html" />
+        <item itemvalue="JavaScript Debug.3_react生命周期（新）.html" />
         <item itemvalue="JavaScript Debug.2_react生命周期（旧）.html" />
         <item itemvalue="JavaScript Debug.1_引出生命周期.html" />
-        <item itemvalue="JavaScript Debug.1、函数式组件.html" />
-        <item itemvalue="JavaScript Debug.jsx语法规则.html" />
-        <item itemvalue="JavaScript Debug.3、虚拟DOM与真实DOM.html" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +121,8 @@
       <workItem from="1613919664757" duration="73000" />
       <workItem from="1614502809563" duration="11534000" />
       <workItem from="1615101908384" duration="7463000" />
+      <workItem from="1615260583028" duration="6420000" />
+      <workItem from="1615288907034" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1613919713294</created>
@@ -140,78 +173,120 @@
       <option name="project" value="LOCAL" />
       <updated>1615109207671</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="话new时尚的f">
+      <created>1615175237994</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615175237994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="话new时尚的" />
+    <MESSAGE value="话new时尚的f" />
+    <option name="LAST_COMMIT_MESSAGE" value="话new时尚的f" />
   </component>
   <component name="WindowStateProjectService">
     <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1615109207110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615109207110" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.0.bottom" timestamp="1615262049963">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1615104305988">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049963" />
+    <state width="685" height="339" key="GridCell.Tab.0.center" timestamp="1615262049962">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615104305988" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1615104305988">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049962" />
+    <state width="685" height="339" key="GridCell.Tab.0.left" timestamp="1615262049962">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615104305988" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049962" />
+    <state width="685" height="339" key="GridCell.Tab.0.right" timestamp="1615262049963">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049963" />
+    <state width="685" height="339" key="GridCell.Tab.1.bottom" timestamp="1615262049964">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049964" />
+    <state width="685" height="339" key="GridCell.Tab.1.center" timestamp="1615262049964">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049964" />
+    <state width="685" height="339" key="GridCell.Tab.1.left" timestamp="1615262049963">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049963" />
+    <state width="685" height="339" key="GridCell.Tab.1.right" timestamp="1615262049964">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.2.bottom" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049964" />
+    <state width="685" height="339" key="GridCell.Tab.2.bottom" timestamp="1615262049965">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.2.center" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.2.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049965" />
+    <state width="685" height="339" key="GridCell.Tab.2.center" timestamp="1615262049965">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.2.left" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.2.center/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049965" />
+    <state width="685" height="339" key="GridCell.Tab.2.left" timestamp="1615262049964">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state width="1515" height="261" key="GridCell.Tab.2.right" timestamp="1615104305989">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.2.left/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049964" />
+    <state width="685" height="339" key="GridCell.Tab.2.right" timestamp="1615262049965">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615109209008">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="685" height="339" key="GridCell.Tab.2.right/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049965" />
+    <state x="359" y="158" key="SettingsEditor" timestamp="1615270802498">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="359" y="158" key="SettingsEditor/1792.23.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615270802498" />
+    <state x="421" y="197" key="Vcs.Push.Dialog.v2" timestamp="1615175241035">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615109209008" />
+    <state x="421" y="197" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1615175241035" />
     <state x="469" y="203" key="git4idea.merge.GitPullDialog" timestamp="1615102033016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1615102033016" />
+    <state x="1061" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1615270193672">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="1061" y="251" width="670" height="676" key="search.everywhere.popup/1792.23.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615270193672" />
   </component>
 </project>

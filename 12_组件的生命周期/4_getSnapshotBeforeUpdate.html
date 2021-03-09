@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_getSnapshotBeforeUpdate的使用场景</title>
+    <style>
+        .list{
+            width: 200px;
+            height: 150px;
+            background-color: skyblue;
+            overflow: auto;
+        }
+        .news{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="test"></div>
+
+<script src="../js/react.production.min.js"></script>
+<script src="../js/react-dom.production.min.js"></script>
+<script src="../js/babel.min.js"></script>
+<script type="text/babel">
+    class NewsList extends React.Component{
+        state = {
+            newArr:[]
+        }
+        getSnapshotBeforeUpdate(){
+            console.log('getSnapshotBeforeUpdate',this,this.ul.scrollHeight);
+            return this.ul.scrollHeight
+        }
+
+        componentDidUpdate(preProps,preState,snapshotValue){
+            console.log(snapshotValue)
+            this.ul.scrollHeight = this.ul.scrollHeight - snapshotValue
+        }
+        //组件挂载完毕
+        componentDidMount(){
+            setInterval(()=>{
+                //获取原状态
+                const {newArr} = this.state;
+                //模拟一条新闻
+                const news = '新闻'+(newArr.length+1)
+                this.setState({
+                    newArr: [news,...newArr]
+                })
+            },1000)
+        }
+        render(){
+            console.log('render',2)
+            return (
+                <div className="list" ref={c=>this.ul = c}>
+                    {
+                        this.state.newArr.map((n)=>{
+                            return <div className="news">{n}</div>
+                        })
+                    }
+
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(<NewsList num={11}/>,document.getElementById('test'))
+</script>
+</body>
+</html>
