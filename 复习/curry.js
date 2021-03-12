@@ -23,4 +23,13 @@ const fn = curry(sum);
 // fn(1, 2)(3); // 6
 // fn(1)(2, 3); // 6
  // 6
-console.log(fn(1)(2)(3))
+console.log(fn(1)(2)(3));
+let a = [1,2];
+let b = a.map(function (item) {
+    return item*2
+})
+let c = a.forEach(function (item) {
+    return item*2
+
+})
+console.log(b,c,a)

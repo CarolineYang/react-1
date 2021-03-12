@@ -43,21 +43,11 @@
             <ul>
                 {
                     myList.map((item,index)=>{
-                        return <li key="{item.name}">{item.name}</li>
+                        return <li key={item.name}> {item.name}</li>
                     })
                 }
             </ul>
-            <ul>
-                {myList2}
-            </ul>
-            <ul>
-                {myList3}
-            </ul>
-            <ul>
-                <li>Angular</li>
-                <li>React</li>
-                <li>Vue</li>
-            </ul>
+
         </div>
     )
     // 2、渲染虚拟DOM到页面

@@ -33,7 +33,7 @@
 
         componentDidUpdate(preProps,preState,snapshotValue){
             console.log(snapshotValue)
-            this.ul.scrollHeight = this.ul.scrollHeight - snapshotValue
+            this.ul.style.scrollHeight = this.ul.scrollHeight - snapshotValue
         }
         //组件挂载完毕
         componentDidMount(){
@@ -48,7 +48,7 @@
             },1000)
         }
         render(){
-            console.log('render',2)
+            // console.log('render',2)
             return (
                 <div className="list" ref={c=>this.ul = c}>
                     {

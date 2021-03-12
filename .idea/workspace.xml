@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d12b7b83-0333-4c9c-aeeb-cdf88de30fa3" name="Default Changelist" comment="话new时尚的f">
-      <change afterPath="$PROJECT_DIR$/11_高阶函数_函数柯里化/1_高阶函数_函数柯里化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_高阶函数_函数柯里化/2_不用函数柯里化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期（新）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/react-dom.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/react.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/复习/6_演示函数的柯里化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_DOM中的diff算法/1_验证Diffing算法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_DOM中的diff算法/2_key的作用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复习/异步.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期（旧）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_jsx的小练习/jsx小练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_jsx的小练习/jsx小练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/2_回调形式的ref.html" beforeDir="false" afterPath="$PROJECT_DIR$/08_组件实例三大属性3_refs与事件处理/2_回调形式的ref.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期（新）.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期（新）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复习/curry.js" beforeDir="false" afterPath="$PROJECT_DIR$/复习/curry.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +65,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/12_组件的生命周期" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.4_getSnapshotBeforeUpdate.html">
-    <configuration name="1_引出生命周期.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/1_引出生命周期.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.2_key的作用.html">
+    <configuration name="1_验证Diffing算法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/13_DOM中的diff算法/1_验证Diffing算法.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="1、类的基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/复习/1、类的基础知识.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="2_react生命周期（旧）.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/2_react生命周期（旧）.html" useBuiltInWebServerPort="true">
+    <configuration name="2_key的作用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/13_DOM中的diff算法/2_key的作用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="3_react生命周期（新）.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/3_react生命周期（新）.html" useBuiltInWebServerPort="true">
@@ -89,19 +85,16 @@
     <configuration name="4_getSnapshotBeforeUpdate.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/4_getSnapshotBeforeUpdate.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/12_组件的生命周期/demo.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="jsx小练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-1/04_jsx的小练习/jsx小练习.html" useBuiltInWebServerPort="true">
+    <configuration name="异步.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/复习/异步.js" working-dir="$PROJECT_DIR$/复习">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.4_getSnapshotBeforeUpdate.html" />
-        <item itemvalue="JavaScript Debug.demo.html" />
+        <item itemvalue="JavaScript Debug.2_key的作用.html" />
+        <item itemvalue="JavaScript Debug.1_验证Diffing算法.html" />
         <item itemvalue="JavaScript Debug.3_react生命周期（新）.html" />
-        <item itemvalue="JavaScript Debug.2_react生命周期（旧）.html" />
-        <item itemvalue="JavaScript Debug.1_引出生命周期.html" />
+        <item itemvalue="JavaScript Debug.4_getSnapshotBeforeUpdate.html" />
+        <item itemvalue="Node.js.异步.js" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +115,11 @@
       <workItem from="1614502809563" duration="11534000" />
       <workItem from="1615101908384" duration="7463000" />
       <workItem from="1615260583028" duration="6420000" />
-      <workItem from="1615288907034" duration="577000" />
+      <workItem from="1615288907034" duration="739000" />
+      <workItem from="1615292396475" duration="548000" />
+      <workItem from="1615343888384" duration="523000" />
+      <workItem from="1615377718848" duration="1155000" />
+      <workItem from="1615529684478" duration="4831000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1613919713294</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615175237994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="话new时尚的f">
+      <created>1615289527789</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615289527789</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,26 +215,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615109207110" />
-    <state width="685" height="339" key="GridCell.Tab.0.bottom" timestamp="1615262049963">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1771" height="358" key="GridCell.Tab.0.bottom" timestamp="1615378259435">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
     <state width="685" height="339" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049963" />
-    <state width="685" height="339" key="GridCell.Tab.0.center" timestamp="1615262049962">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="685" height="318" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615292944997" />
+    <state width="1771" height="318" key="GridCell.Tab.0.bottom/1792.-320.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1615292803482" />
+    <state width="1771" height="358" key="GridCell.Tab.0.bottom/1792.-799.1440.2560/0.0.1792.1120@0.0.1792.1120" timestamp="1615378259435" />
+    <state width="1771" height="358" key="GridCell.Tab.0.center" timestamp="1615378259433">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615104305988" />
     <state width="685" height="339" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049962" />
-    <state width="685" height="339" key="GridCell.Tab.0.left" timestamp="1615262049962">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="685" height="318" key="GridCell.Tab.0.center/1792.-297.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615292944996" />
+    <state width="1771" height="318" key="GridCell.Tab.0.center/1792.-320.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1615292803480" />
+    <state width="1771" height="358" key="GridCell.Tab.0.center/1792.-799.1440.2560/0.0.1792.1120@0.0.1792.1120" timestamp="1615378259433" />
+    <state width="1771" height="358" key="GridCell.Tab.0.left" timestamp="1615378259432">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615104305988" />
     <state width="685" height="339" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049962" />
-    <state width="685" height="339" key="GridCell.Tab.0.right" timestamp="1615262049963">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="685" height="318" key="GridCell.Tab.0.left/1792.-297.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615292944996" />
+    <state width="1771" height="318" key="GridCell.Tab.0.left/1792.-320.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1615292803479" />
+    <state width="1771" height="358" key="GridCell.Tab.0.left/1792.-799.1440.2560/0.0.1792.1120@0.0.1792.1120" timestamp="1615378259432" />
+    <state width="1771" height="358" key="GridCell.Tab.0.right" timestamp="1615378259434">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
     <state width="685" height="339" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049963" />
+    <state width="685" height="318" key="GridCell.Tab.0.right/1792.-297.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615292944997" />
+    <state width="1771" height="318" key="GridCell.Tab.0.right/1792.-320.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1615292803481" />
+    <state width="1771" height="358" key="GridCell.Tab.0.right/1792.-799.1440.2560/0.0.1792.1120@0.0.1792.1120" timestamp="1615378259434" />
     <state width="685" height="339" key="GridCell.Tab.1.bottom" timestamp="1615262049964">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -271,15 +287,17 @@
     </state>
     <state width="1515" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1615104305989" />
     <state width="685" height="339" key="GridCell.Tab.2.right/0.23.1792.1017@0.23.1792.1017" timestamp="1615262049965" />
-    <state x="359" y="158" key="SettingsEditor" timestamp="1615270802498">
-      <screen x="0" y="23" width="1792" height="1017" />
-    </state>
-    <state x="359" y="158" key="SettingsEditor/1792.23.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615270802498" />
-    <state x="421" y="197" key="Vcs.Push.Dialog.v2" timestamp="1615175241035">
+    <state x="359" y="149" key="SettingsEditor" timestamp="1615378247269">
       <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="359" y="149" key="SettingsEditor/1792.-799.1440.2560/0.0.1792.1120@0.0.1792.1120" timestamp="1615378247269" />
+    <state x="359" y="158" key="SettingsEditor/1792.23.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615270802498" />
+    <state x="421" y="202" key="Vcs.Push.Dialog.v2" timestamp="1615289529950">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615109209008" />
     <state x="421" y="197" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1615175241035" />
+    <state x="421" y="202" key="Vcs.Push.Dialog.v2/1792.-297.2560.1417/0.23.1792.1017@0.23.1792.1017" timestamp="1615289529950" />
     <state x="469" y="203" key="git4idea.merge.GitPullDialog" timestamp="1615102033016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
