@@ -17,15 +17,27 @@
     class Demo extends React.Component{
         constructor(props) {
             super(props);
+            this.a = 3;
+            this.changeWeather2 = this.changeWeather2.bind(this);
         }
+        b=4;
         state = {isHot:false,wind:"feng"};
+        changeWeather2(){
+            console.log(this)
+        }
         render(){
             console.log('render中的this',this)
             const {isHot} = this.state;
             return (
-                <h2 onClick={this.changeWeather}>
-                    我是天气{isHot?"不好":"hao"}+{this.state.wind}
-                </h2>
+                <div>
+                    <h2 onClick={this.changeWeather}>
+                        我是天气{isHot?"不好":"hao"}+{this.state.wind}
+                    </h2>
+                    <h2 onClick={this.changeWeather2}>
+                        我是天气sss{isHot?"不好":"hao"}+{this.state.wind}
+                    </h2>
+                </div>
+
             )
         }
         //箭头函数this指向为定义它的时候的环境
